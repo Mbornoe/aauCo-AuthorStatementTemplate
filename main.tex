@@ -1,0 +1,76 @@
+\input{preamble.tex}
+
+\phdSudent{John Smith}
+
+
+\begin{document}
+\papertitlepage{
+	Co-author Statement in Connection with Submission of a PhD Thesis
+}{
+\justify
+	With reference to Ministerial  Order no. 1039 of  August 27 2013 regarding the PhD Degree § 12, article 4, statements from each author about the PhD student’s part in the shared work must be included in case the thesis is based on already published or submitted papers. 
+}
+
+\paperInfo{
+	% Paper Title
+	An Awesome Paper
+}{
+	% Paper number in the thesis
+	A 
+}{
+	% Publication outlet
+	A Brilliant Journal or Conference   
+}{
+	% List of authors 
+	\author{Bruce Wayne},
+	\thePhdStudent,
+	\author{Charles Francis Xavier},
+	\author{Lex Luthor},
+	\author{Peter Parker} and
+	\author{Clark Kent}
+	
+}{
+	% Scientific contribution of the PhD student (all participating PhD students) to the paper.
+ 
+ \statement{
+	PhD Student:
+ }{
+	 The PhD student contributed to defining the overall problem and proposed the core scientific idea to solve it. The PhD student wrote the entire draft version of the paper, and revised it according to co-authors comments. The PhD student derived the key methodology together with co-author \#1, and the student implemented all simulations. The student identified relevant performance metrics and interpreted the simulation and experimental results with comments from the co-authors.
+ }
+ \statement{
+	Co-author \#1 (also a PhD student):
+ }{
+	  Co-author \#1 defined the overall problem together with the PhD student. He/she assisted in careful reviewing of the paper and proposed various refinements to the draft proposal made by the student. Further, co-author \#1, together with the other authors, helped interpret the results.
+ }
+ \statement{
+	Co-author \#2 (also a PhD student):
+ }{
+	  Co-author \#2 (also a PhD student): Co-author \#2 performed the experiments related to the paper, and helped review and improve the paper.
+ }
+ 
+ 
+ 
+ 
+
+
+}
+\vskip 2em
+%
+%
+\raggedright \textbf{Signature, PhD Student}  \vskip 1em
+
+\authorSignature{\thePhdStudent}
+%%% Insert your signature. Be sure that it has a transparent background. Comment out if you do not want to include your digital signature.
+% You adjust the placement of the signature by adjusting the shift variables in the node setting.
+\begin{tikzpicture}[remember picture,overlay]
+    \node[xshift=90mm,yshift=8mm]{%
+    \includegraphics[width=55mm]{signature.png}};
+\end{tikzpicture}
+%
+\vskip 1em
+\raggedright \textbf{Signatures, co-authors}  \vskip 1em
+
+\printAuthorSignatures
+
+\end{document}
+
