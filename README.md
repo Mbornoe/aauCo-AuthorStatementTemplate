@@ -6,5 +6,5 @@ I do not want to write a big introduction on how to use this template. If you ar
 
 # Template 
 
+![alt text](https://github.com/Mbornoe/aauCo-AuthorStatementTemplate/blob/master/main-0.png)
 ![alt text](https://github.com/Mbornoe/aauCo-AuthorStatementTemplate/blob/master/main-1.png)
-![alt text](https://github.com/Mbornoe/aauCo-AuthorStatementTemplate/blob/master/main-2.png)
